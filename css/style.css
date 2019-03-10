@@ -1,10 +1,10 @@
 body {
-  max-width: 1600px;
+  max-width: 1020px;
   margin: 0 auto;
   padding: 0;
 
   font-family: Lato-Light, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #000000;
 
   background-color: #ffffff;
@@ -35,6 +35,69 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+
+  color: #ffffff;
+
+  background-color: #323232;
+}
+
+.main-header > a {
+  order: 2;
+
+  margin: 0 26px;
+  margin-top: auto;
+}
+
+.main-navigation {
+  width: 40%;
+}
+
+.main-navigation ul{
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 63px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-navigation ul>li {
+  margin: auto 14px;
+}
+
+.main-navigation a{
+  color: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.main-left-navigation {
+  order: 1;
+}
+
+.main-left-navigation ul>li:first-child {
+  margin-left: auto;
+}
+
+.main-right-navigation {
+  order: 3;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+
+  border-style: solid;
+  border-width: 25px 47.5px 0 47.5px;
+  border-color: #323232 transparent transparent transparent;
 }
 
 .images-row {
