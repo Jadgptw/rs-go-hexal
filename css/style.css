@@ -94,19 +94,79 @@ input[type="radio"].visually-hidden {
   width: 0;
   height: 0;
   margin: 0 auto;
+  margin-bottom: 65px;
 
   border-style: solid;
   border-width: 25px 47.5px 0 47.5px;
   border-color: #323232 transparent transparent transparent;
 }
 
+.images {
+  position: relative;
+}
+
 .images-row {
   display: flex;
+  justify-content: center;
 
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+.images-row li {
+  position: relative;
+
+  margin: 0 10px;
+}
+
+.image-left-triangle:before {
+  content: "";
+
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 90px 0 0;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+.image-left-triangle:after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 93px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.image-right-triangle:before {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 90px 55px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.image-right-triangle:after {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 55px 93px;
+  border-color: transparent transparent #ffffff transparent;
 }
 
 .images-bread-crumbs li {
@@ -121,3 +181,4 @@ input[type="radio"].visually-hidden {
 .about-designer {
   display: flex;
 }
+
