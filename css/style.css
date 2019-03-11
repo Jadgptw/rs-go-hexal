@@ -330,12 +330,28 @@ input[type="radio"].visually-hidden {
 
 .contact-info {
   width: 180px;
+
+  font-size: 12px;
+  line-height: 21.6px;
 }
 
 .contact-info p {
   margin: 0;
 }
 
+.contact-info span {
+  color: #e0e0e0;
+}
+
+.contact-info a {
+  color: inherit;
+}
+
+.contact-info a > i {
+  display: inline-block;
+  width: 20px;
+  color: #2eb398;
+}
 
 .main-footer p{
   margin: 0;
