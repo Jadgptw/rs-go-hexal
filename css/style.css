@@ -286,8 +286,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
 
   width: 100%;
-  margin: 8px 0;
-  padding: 0 5px;
+  margin-bottom: 16px;
 
   font: inherit;
   color: #bebebe;
@@ -337,10 +336,18 @@ input[type="radio"].visually-hidden {
 
 .contact-info p {
   margin: 0;
+  margin-bottom: 65px;
 }
 
 .contact-info span {
   color: #e0e0e0;
+}
+
+.contact-info ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 .contact-info a {
