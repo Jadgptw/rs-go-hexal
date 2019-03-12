@@ -236,6 +236,10 @@ input[type="radio"].visually-hidden {
   background-color: #a5dbd4;
 }
 
+.about-designer-social a:hover {
+  color: #ffffff;
+}
+
 .about-designer-social .twitter {
   background-color: #6ccbbe;
 }
@@ -341,6 +345,7 @@ input[type="radio"].visually-hidden {
 
 .contact-form button:hover {
   cursor: pointer;
+  transform: scaleY(1.1);
 }
 
 .contact-info {
@@ -370,6 +375,10 @@ input[type="radio"].visually-hidden {
 
 .contact-info a {
   color: inherit;
+}
+
+.contact-info a:hover {
+  color: #ffffff;
 }
 
 .contact-info a > i {
