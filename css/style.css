@@ -42,6 +42,8 @@ input[type="radio"].visually-hidden {
   justify-content: center;
 
   color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 
   background-color: #323232;
 }
@@ -177,6 +179,9 @@ input[type="radio"].visually-hidden {
 
   padding: 68px 120px;
 
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+
   background-color: #2eb398;
 }
 
@@ -205,6 +210,8 @@ input[type="radio"].visually-hidden {
 
 .about-designer-info p+p {
   margin-bottom: 37px;
+
+  font-family: 'Lato', sans-serif;
   color: #d7fcf5;
   font-size: 12px;
 }
@@ -240,6 +247,9 @@ input[type="radio"].visually-hidden {
 
 .contact {
   padding: 14px 30px;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   color: #bebebe;
 
   background-color: #323232;
@@ -257,6 +267,7 @@ input[type="radio"].visually-hidden {
 .contact-wrapper p {
   margin: 0;
 
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .contact-wrapper h2 {
@@ -328,6 +339,10 @@ input[type="radio"].visually-hidden {
   background-color: #2eb398;
 }
 
+.contact-form button:hover {
+  cursor: pointer;
+}
+
 .contact-info {
   width: 180px;
 
@@ -337,10 +352,11 @@ input[type="radio"].visually-hidden {
 
 .contact-info p {
   margin: 0;
-  margin-bottom: 65px;
+  margin-bottom: 29px;
 }
 
 .contact-info span {
+  font-weight: 900;
   color: #e0e0e0;
 }
 
@@ -348,6 +364,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 
+  font-weight: 700;
   list-style: none;
 }
 
@@ -365,6 +382,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 15px 40px;
 
+  font-family: 'Maven Pro', sans-serif;
   color: #454545;
   font-size: 12px;
 
