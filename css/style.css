@@ -177,7 +177,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
 
-  padding: 68px 120px;
+  padding: 67px 120px;
 
   font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
@@ -196,12 +196,16 @@ input[type="radio"].visually-hidden {
 
 .about-designer-info h3 {
   margin: 0;
+  margin-bottom: 20px;
+
   font-size: 30px;
+  line-height: 4.6px;
   color: #d7fcf5;
 }
 
 .about-designer-info p {
   margin: 0;
+  margin-bottom: 12px;
 
   color: #20816d;
   font-size: 18px;
@@ -229,11 +233,14 @@ input[type="radio"].visually-hidden {
 .about-designer-social a {
   display: block;
   min-width: 25px;
-  margin-right: 1px;
   padding: 6px 0;
 
   text-align: center;
   background-color: #a5dbd4;
+}
+
+.about-designer-social a > i {
+  color: #20816d;
 }
 
 .about-designer-social a:hover {
@@ -259,12 +266,15 @@ input[type="radio"].visually-hidden {
   background-color: #323232;
 }
 
+.contact-container {
+  border-top: 1px solid #2b2b2b;
+  border-bottom: 1px solid #2b2b2b;;
+}
+
 .contact-wrapper {
   margin-bottom: 16px;
+  margin-top: 45px;
   padding: 0 90px;
-  padding-top: 55px;
-
-  border-top: 1px solid #2b2b2b;
 }
 
 .contact-wrapper h2,
@@ -302,7 +312,7 @@ input[type="radio"].visually-hidden {
 
   width: 100%;
   margin-bottom: 16px;
-  padding: 0 5px;
+  padding: 0 15px;
 
   font: inherit;
   color: #bebebe;
@@ -322,7 +332,7 @@ input[type="radio"].visually-hidden {
 .contact-form textarea {
   height: 150px;
   width: 100%;
-  padding-top: 5px;
+  padding-top: 10px;
 
   resize: none;
 }
@@ -332,7 +342,8 @@ input[type="radio"].visually-hidden {
 
   margin-left: auto;
   margin-top: 10px;
-  padding: 10px 32px;
+  margin-bottom: 51px;
+  padding: 9px 29px;
 
   font: inherit;
   font-size: 12px;
