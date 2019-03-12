@@ -1,5 +1,7 @@
 # rs-go-hexal
 
+## Link to current version of the site(in progress) https://jadgptw.github.io/rs-go-hexal/
+
 ## Terms of Reference
 
 Fully responsive layout is not required. “Interactive“ means effects or animations depending on user's actions, like on hover or on click.
